@@ -1,0 +1,2250 @@
+1. Personal Portfolio Website using HTML 
+Program Code: 
+index.html 
+<html> 
+<head> 
+ <title>Anugrahaa V - Resume</title> 
+</head> 
+<frameset rows="20%,70%,10%"> 
+ <frame src="header.html" name="header" scrolling="no" noresize>  <frameset cols="20%,80%"> 
+<frame src="menu.html" name="menu" scrolling="auto" noresize> <frame src="content.html" name="content"> 
+ </frameset> 
+ <frame src="footer.html" name="footer" scrolling="no" noresize> </frameset> 
+</html> 
+home.html 
+<html> 
+<body bgcolor="#e6f2ff"> 
+ <center> 
+ <img src="C:\htmlnew\indeximg.jpg" 
+width="350" height="250" style="border-radius: 50%; margin-top: 20px;"><br><br>  <h2>Welcome!</h2> 
+ <p>This is my online resume. Use the menu on the left to explore my details.</p>  </center></body></html> 
+header.html 
+<html> 
+<body bgcolor="#003366"> 
+ <center> 
+<font color="white" size="6" face="Arial"><b>Anugrahaa V</b></font><br> <font color="lightgray" size="4">B.Sc. Computer Science Student</font>  </center> 
+</body> 
+</html> 
+menu.html 
+<html> 
+<body bgcolor="#66cccc" style="font-family: Arial, sans-serif; padding: 10px;">  <h3 style=" 
+display: inline-block;
+border: 2px solid #333; 
+padding: 8px 15px; 
+background-color: #F08784; 
+border-radius: 10px; 
+color: white; 
+box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
+ "> 
+Navigation 
+ </h3> 
+<br><br> 
+ <div style="line-height: 1.8; font-size: 16px;"> 
+<a href="objective.html" target="content" style="text-decoration: none; color: #003366;" onmouseover="this.style.color='darkred'" onmouseout="this.style.color='#003366'">Career Objective</a><br> 
+<a href="education.html" target="content" style="text-decoration: none; color: #003366;" onmouseover="this.style.color='darkred'" 
+onmouseout="this.style.color='#003366'">Education</a><br> 
+<a href="internship.html" target="content" style="text-decoration: none; color: #003366;" onmouseover="this.style.color='darkred'" 
+onmouseout="this.style.color='#003366'">Internship</a><br> 
+<a href="skills.html" target="content" style="text-decoration: none; color: #003366;" onmouseover="this.style.color='darkred'" onmouseout="this.style.color='#003366'">Technical Skills</a><br> 
+<a href="projects.html" target="content" style="text-decoration: none; color: #003366;" onmouseover="this.style.color='darkred'" 
+onmouseout="this.style.color='#003366'">Projects</a><br> 
+<a href="languages.html" target="content" style="text-decoration: none; color: #003366;" onmouseover="this.style.color='darkred'" 
+onmouseout="this.style.color='#003366'">Languages Known</a><br> 
+<a href="strengths.html" target="content" style="text-decoration: none; color: #003366;" onmouseover="this.style.color='darkred'" onmouseout="this.style.color='#003366'">Key Strengths</a><br> 
+<a href="declaration.html" target="content" style="text-decoration: none; color: #003366;" onmouseover="this.style.color='darkred'" 
+onmouseout="this.style.color='#003366'">Declaration</a><br> 
+<a href="contact.html" target="content" style="text-decoration: none; color: #003366;" onmouseover="this.style.color='darkred'" 
+onmouseout="this.style.color='#003366'">Contact</a><br> 
+ </div> 
+</body></html>
+objective.html 
+<html> 
+<head> 
+ <title>Career Objective</title>  <style> 
+ body { 
+ background: #D3D3D3;  font-family: Arial, sans-serif;  } 
+ .career-box { 
+ background: #fff; 
+ border: 2px solid #4da6ff;  border-radius: 10px; 
+  
+ margin: 30px auto; 
+ width: 80%; 
+  
+ } 
+ h2 { 
+ color: #003366; 
+ text-align: center; 
+ } 
+ p, ul { 
+ text-align: justify; 
+ line-height: 1.6; 
+ font-size: 16px; 
+ color: #333; 
+ } 
+ ul { 
+ margin-top: 10px; 
+ margin-bottom: 10px;   
+ } 
+ .btn { 
+ display: inline-block;   
+ background: #4da6ff;  color: #fff; 
+  
+ border-radius: 5px; 
+ margin: 20px;
+ } 
+ .center-img { 
+ text-align: center; 
+ margin: 15px 0; 
+ } 
+ </style> 
+</head> 
+<body> 
+ <div class="career-box"> 
+ <h2>Career Objective</h2> 
+ <div class="center-img"> 
+ <img src="C:\Users\anugr\OneDrive\Desktop\objimg.jpg" height="150" width="600">  </div> 
+ <p> 
+ I am a passionate and highly motivated Computer Science student with a strong foundation in programming languages such as Java and SQL, along with a growing interest in backend development and software engineering. My academic journey has equipped me with essential problem-solving abilities and logical thinking skills, which I consistently apply to both classroom projects and self-driven learning. 
+ I possess excellent communication and interpersonal skills, enabling me to collaborate effectively in team environments and contribute to shared goals. I am a quick learner, eager to explore emerging technologies, and adapt easily to new tools or frameworks. My goal is to secure a role in a dynamic and growth-oriented organization where I can: 
+ </p> 
+ <ul> 
+ <li>Apply my technical and analytical skills to solve real-world challenges</li>  <li>Gain hands-on experience in the software development lifecycle</li>  <li>Work alongside experienced professionals and mentors</li> 
+ <li>Continuously grow as a developer and a team player</li> 
+ </ul> 
+ <p> 
+ With a positive attitude, strong work ethic, and a passion for technology, I am ready to embrace new opportunities that allow me to learn, contribute, and make an impact.  </p> 
+ </div> 
+ <a class="btn" href="C:\Users\anugr\OneDrive\Desktop\content.html">&larr; Home</a> </body></html> 
+content.html 
+<html>
+<body bgcolor="#e6f2ff"> 
+ <center> 
+<img src="C:\Users\anugr\Downloads\resumeimg.webp" 
+width="350" height="250" style="border-radius: 50%; margin-top: 20px;"><br><br>  <h2>Welcome!</h2> 
+<p>This is my online resume. Use the menu on the left to explore my details.</p>  </center> 
+</body> 
+</html> 
+projects.html 
+<html> 
+<head> 
+ <title>Projects</title> 
+ <style> 
+body { 
+ background-color: #e6f2ff; 
+ font-family: Arial, sans-serif; 
+} 
+.project-box { 
+ border: 2px solid #4da6ff; 
+ border-radius: 10px; 
+ margin: 30px auto; 
+ width: 80%; 
+ background: #ffffff; 
+} 
+h2 { 
+ text-align: center; 
+ color: #003366; 
+} 
+.btn { 
+ display: inline-block; 
+ background-color: #4da6ff; 
+ color: white; 
+ border-radius: 5px; 
+ margin: 20px; 
+} 
+.btn:hover { 
+ background-color: #3399ff; 
+} 
+.center-img {
+ text-align: center; 
+ margin: 20px 0; 
+} 
+ </style> 
+</head> 
+<body> 
+ <div class="project-box"> 
+ <h2>Projects</h2> 
+ <p><b>E-commerce Management System</b> (DBMS Project)</p> <p>Designed and implemented a database system to handle product listings, customer orders, and inventory management for an e-commerce platform.</p> 
+ <p><b>Flutter Project – Book Management System</b></p> 
+<p> 
+ A Book Management System allows users to manage a personal or institutional book inventory. This includes adding, updating, deleting, and viewing book records with details like title, author, category, and availability. 
+</p> 
+<p>This app can be used by:</p> 
+<ul> 
+ <li>Students managing their own digital bookshelf</li> 
+ <li>Small libraries or bookstores</li> 
+ <li>Admins in educational institutions</li> 
+</ul> 
+ </div> 
+<div class="center-img"> 
+ <center> <img src="C:\Users\anugr\OneDrive\Desktop\prjjimg.webp" height="300"></center><br> 
+<a class="btn" href="C:\Users\anugr\OneDrive\Desktop\content.html">&larr; Home</a>  </div> 
+</body> 
+</html> 
+educational.html 
+<html> 
+<body bgcolor="#e6f2ff"> 
+ <h2>Education</h2> 
+ <ul> 
+ <li><b>B.Sc. Computer Science</b><br>PSGR Krishnammal College for Women, Coimbatore (2023 – 2026)</li>
+ <li><b>Higher Secondary School</b><br>Indira Gandhi Memorial Matriculation Hr. Sec. School, Madurai</li> 
+ </ul> 
+ <a class="btn" href="C:\Users\anugr\OneDrive\Desktop\content.html">&larr; Home</a><br><br> 
+<center><img src="C:\Users\anugr\OneDrive\Desktop\educationimg.jpeg"></center> </body> 
+</html> 
+internship.html 
+<html> 
+<body bgcolor="#e6f2ff"> 
+ <h2>Internship Experience</h2> 
+ <p><b>Company:</b> Ashika Readymade and Textiles, Madurai</p> 
+ <p><h3>Worked with SMART 6.0 by Infotrack, a retail software for textile store operations. Managed sales, inventory, barcodes, and customer/vendor records. Gained practical experience in software-based business management and report generation.<h3></p> <a class= "btn" href ="C:\Users\anugr\OneDrive\Desktop\content.html"><- home </a><br><br> <center><img src="C:\Users\anugr\OneDrive\Desktop\intimg.jpeg"></center> </body> 
+</html> 
+languages.html 
+<html> 
+<body bgcolor="#e6f2ff"> 
+ <h2>Languages Known</h2> 
+ <ul> 
+<li>Tamil (Native)</li> 
+<li>English (Fluent)</li> 
+<li>Hindi (Completed "Rashtrabhasha Praveen")</li> 
+ </ul> 
+<a class= "btn" href ="C:\Users\anugr\OneDrive\Desktop\content.html"><- home </a> </body> 
+</html> 
+skills.html 
+<html> 
+<head> 
+ <title>Technical Skills</title> 
+ <style> 
+body { 
+ background-color: #e6f2ff; 
+ font-family: Arial, sans-serif; 
+}
+.skills-box { 
+ background: #fff; 
+ border: 2px solid #4da6ff; 
+ border-radius: 10px; 
+ width: 80%; 
+ margin: 30px auto; 
+} 
+h2 { 
+ color: #003366; 
+ text-align: center; 
+} 
+ul { 
+ font-size: 16px; 
+ line-height: 1.6; 
+} 
+.btn { 
+ display: inline-block; 
+ background-color: #4da6ff; 
+ color: white 
+ border-radius: 5px; 
+ margin: 20px; 
+} 
+.center-img { 
+ text-align: center; 
+ margin: 20px 0; 
+} 
+ </style> 
+</head> 
+<body> 
+ <div class="skills-box"> 
+ <h2>Technical Skills</h2> 
+<ul> 
+ <li><b>Programming Languages:</b> Java</li> 
+ <li><b>Database:</b> SQLPlus</li> 
+</ul> 
+<p> 
+ <b>Programming Language:</b> Java – Familiar with basic programming concepts like loops, conditions, classes, and objects.<br><br> 
+ <b>Database:</b> SQLPlus – Able to write simple queries to create, retrieve, and manage data in Oracle databases.
+</p> 
+ </div> 
+ <a class= "btn" href ="C:\Users\anugr\OneDrive\Desktop\content.html"><- home </a>  <div class="center-img"> 
+ </div> 
+</body> 
+</html> 
+strength.html 
+<html> 
+<body bgcolor="#e6f2ff"> 
+ <h2>Key Strengths</h2> 
+ <ul> 
+ <li><b>Excellent Communication Skills</b></li> 
+ <li><b>Team Collaboration</b></li> 
+ <li><b>Adaptability</b><br><br> 
+Excellent Communication Skills – Able to express ideas clearly and confidently in both verbal and written formats, making collaboration and presentations more effective.<br><br> Team Collaboration – Thrive in team-oriented environments, supporting group efforts, contributing ideas, and fostering a positive and productive team dynamic.<br><br> Adaptability – Quick to adjust to new tools, technologies, and work environments; open to learning and capable of staying productive in fast-paced situations. 
+</li> 
+ </ul> 
+<a class= "btn" href ="C:\Users\anugr\OneDrive\Desktop\content.html"><- home </a> </body> 
+</html> 
+declaration.html 
+<html> 
+<body bgcolor="#e6f2ff"> 
+ <h2>Declaration</h2> 
+ <p>I hereby declare that the information provided above is true and correct to the best of my knowledge.<br> 
+I solemnly affirm that all the details mentioned in this resume are accurate and complete to the best of my understanding. I take full responsibility for the authenticity of the same.</p> <a class= "btn" href ="C:\Users\anugr\OneDrive\Desktop\content.html"><- home </a> </body> 
+</html>
+contact.html 
+<html> 
+<body bgcolor="#e6f2ff"> 
+ <h2>Contact</h2> <p><b>Phone:</b> 8220854626</p> 
+ <p><b>Email:</b> 23bcs004@psgrkcw.ac.in</p> 
+<p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/v-anugrahaa" target="_blank">v-anugrahaa</a></p> 
+ <p><b>GitHub:</b> <a href="https://github.com/anugrahaa-v" 
+target="_blank">anugrahaa-v</a></p> 
+<a class= "btn" href ="C:\Users\anugr\OneDrive\Desktop\content.html"><- home </a> </body> 
+</html> 
+footer.html 
+<html> 
+<body bgcolor="#003366"> 
+ <center> 
+<font color="white" size="3">© 2025 Anugrahaa V | PSGR Krishnammal College for Women</font> 
+ </center> 
+</body></html>
+Output:
+
+
+
+ 
+2.Hotel Menu Design using CSS 
+Program Code: 
+Menustyle.css (External CSS File) 
+.menu-item { 
+ display: flex; 
+ justify-content: space-between; 
+ margin: 12px 0; 
+ font-size: 16px; 
+} 
+.menu-item span:first-child { 
+ flex: 1; 
+ border-bottom: 1px dotted #aaa; 
+ margin-right: 15px; 
+} 
+.menu-item span:last-child { 
+ color: #333; 
+ font-weight: bold; 
+} 
+.menu-image img { 
+ width: 100%; 
+ height: 100%; 
+ object-fit: cover; 
+ border-left: 1px solid #c49b3f; 
+} 
+@media (max-width: 768px) { 
+ .menu-section { 
+ grid-template-columns: 1fr; 
+ } 
+ .menu-image img { 
+ border-left: none; 
+ border-top: 1px solid #c49b3f; 
+ } 
+}
+Hotelmenu.html 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Indian Kitchen Menu - Mixed CSS</title> 
+ <!-- External CSS --> 
+ <link rel="stylesheet" href="menustyle.css"> 
+ <!-- Internal CSS --> 
+ <style> 
+ body { 
+ margin: 0; 
+ font-family: "Georgia", serif; 
+ background: #fdfaf6; 
+ color: #333; 
+ } 
+ .menu-container { 
+ margin: 40px auto; 
+ max-width: 1000px; 
+ border: 4px double #c49b3f; 
+ padding: 40px; 
+ border-radius: 15px; 
+ background: #fff; 
+ box-shadow: 0 5px 20px rgba(0,0,0,0.1); 
+ } 
+ .menu-header { 
+ text-align: center; 
+ border-bottom: 2px solid #c49b3f; 
+ padding-bottom: 20px; 
+ margin-bottom: 40px; 
+ } 
+ .menu-section { 
+ display: grid; 
+ grid-template-columns: 1fr 1fr; 
+ margin: 40px 0; 
+ border: 1px solid #c49b3f; 
+ border-radius: 12px; 
+ overflow: hidden;
+ background: #fefcf9; 
+ } 
+ .menu-text { 
+ padding: 30px; 
+ } 
+ .menu-text h2 { 
+ font-size: 22px; 
+ color: #7a5c1e; 
+ margin-bottom: 20px; 
+ text-transform: uppercase; 
+ border-bottom: 1px solid #c49b3f; 
+ display: inline-block; 
+ padding-bottom: 5px; 
+ } 
+ </style> 
+</head> 
+<body> 
+ <div class="menu-container"> 
+ <!-- Header with Inline CSS --> 
+ <div class="menu-header"> 
+ <h1 style="font-size:40px; margin:0; color:#7a5c1e; font-family:'Times New Roman',serif; letter-spacing:2px;"> 
+ Indian Kitchen 
+ </h1> 
+ <p style="font-size:15px; color:#666; margin-top:8px;"> 
+ Authentic Taste of India • Open 10AM – 11PM 
+ </p> 
+ </div> 
+ <!-- Section styled by Internal CSS --> 
+ <div class="menu-section"> 
+ <div class="menu-text"> 
+ <h2>Indian Kitchen</h2> 
+ <div class="menu-item"><span>Paneer Butter Masala</span><span>₹220</span></div>  <div class="menu-item"><span>Chicken Tikka Masala</span><span>₹280</span></div>  <div class="menu-item"><span>Dal Makhani</span><span>₹180</span></div>  <div class="menu-item"><span>Biryani (Veg/Chicken)</span><span>₹250</span></div>  <div class="menu-item"><span>Tandoori Roti / Naan</span><span>₹40</span></div>  </div> 
+ <div class="menu-image">
+ <img src="https://source.unsplash.com/600x400/?indianfood,curry" alt="Indian Kitchen">  </div> 
+ </div> 
+ <!-- Section styled by External CSS --> 
+ <div class="menu-section"> 
+ <div class="menu-image"> 
+ <img src="https://source.unsplash.com/600x400/?drinks,juice" alt="Beverages">  </div> 
+ <div class="menu-text"> 
+ <h2>Beverages</h2> 
+ <div class="menu-item"><span>Masala Chai</span><span>₹40</span></div>  <div class="menu-item"><span>Lassi (Sweet/Salty)</span><span>₹60</span></div>  <div class="menu-item"><span>Cold Coffee</span><span>₹80</span></div>  <div class="menu-item"><span>Fresh Lime Soda</span><span>₹50</span></div>  <div class="menu-item"><span>Mango Milkshake</span><span>₹90</span></div>  </div> 
+ </div> 
+ <!-- Section mixing Internal + External CSS --> 
+ <div class="menu-section"> 
+ <div class="menu-text"> 
+ <h2>Desserts</h2> 
+ <div class="menu-item"><span>Gulab Jamun (2pcs)</span><span>₹70</span></div>  <div class="menu-item"><span>Rasgulla (2pcs)</span><span>₹60</span></div>  <div class="menu-item"><span>Kaju Katli</span><span>₹120</span></div>  <div class="menu-item"><span>Ice Cream 
+(Vanilla/Choco)</span><span>₹80</span></div> 
+ <div class="menu-item"><span>Phirni</span><span>₹100</span></div>  </div> 
+ <div class="menu-image"> 
+ <img src="https://source.unsplash.com/600x400/?dessert,indian" alt="Desserts">  </div> 
+ </div> 
+ </div> 
+</body> 
+</html>
+Output:
+
+3.Inventary Management using Control Structure and Loops in Php 
+Program Code: 
+Inventory.php 
+<?php 
+// Inventory (item => quantity) 
+$inventory = array( 
+"Pen" => 10, 
+"Book" => 5, 
+"Pencil" => 15 
+); 
+// Add and remove items 
+$itemToAdd = "Book"; 
+$itemToRemove = "Pencil"; 
+// Add stock 
+if (isset($inventory[$itemToAdd])) { 
+$inventory[$itemToAdd] += 3; // add 3 books 
+} 
+// Remove stock 
+if (isset($inventory[$itemToRemove])) { 
+if ($inventory[$itemToRemove] > 0) { 
+ $inventory[$itemToRemove] -= 2; // remove 2 pencils 
+} 
+} 
+?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Inventory Management</title> 
+<style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ background: #f8f9fa; 
+ } 
+ .box { 
+ width: 50%; 
+ margin: 30px auto; 
+ padding: 20px;
+ background: white; 
+ border: 1px solid #ccc; 
+ border-radius: 10px; 
+ } 
+ h2 { 
+ text-align: center; 
+ color: #444; 
+ } 
+ table { 
+ width: 100%; 
+ border-collapse: collapse;  margin-top: 15px; 
+ } 
+ th, td { 
+ border: 1px solid #999; 
+ padding: 8px; 
+ text-align: center; 
+ } 
+ th { 
+ background: #007bff; 
+ color: white; 
+ } 
+ .out { 
+ color: red; 
+ font-weight: bold; 
+ } 
+</style> 
+</head> 
+<body> 
+<div class="box"> 
+<h2>Current Inventory</h2> 
+<table> 
+ <tr> 
+ <th>Item</th> 
+ <th>Quantity</th> 
+ </tr> 
+ <tr><td>Pen</td><td>10</td></tr>  <tr><td>Book</td><td>5</td></tr>  <tr><td>Pencil</td><td>15</td></tr> </table>
+<h2>Updated Inventory</h2> 
+<table> 
+ <tr> 
+ <th>Item</th> 
+ <th>Quantity</th> 
+ </tr> 
+ <?php foreach ($inventory as $item => $qty) { ?>  <tr> 
+ <td><?php echo $item; ?></td> 
+ <td> 
+ <?php 
+ if ($qty == 0) { 
+ echo "<span class='out'>OUT OF STOCK</span>";  } else { 
+ echo $qty; 
+ } 
+ ?> 
+ </td> 
+ </tr> 
+ <?php } ?> 
+</table> 
+</div> 
+</body> 
+</html>
+Output:
+
+ 4.Text formatting and operations using String Function in php 
+Program Code: 
+String.php 
+<?php 
+$text = "Hello World"; 
+?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>String Functions in PHP</title> 
+<style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ background: #f8f9fa; 
+ } 
+ .container { 
+ width: 50%; 
+ margin: 40px auto; 
+ background: white; 
+ padding: 20px; 
+ border-radius: 10px; 
+ border: 1px solid #ccc; 
+ box-shadow: 0px 3px 8px rgba(0,0,0,0.1); 
+ } 
+ h2 { 
+ text-align: center; 
+ color: #007bff; 
+ } 
+ table { 
+ width: 100%; 
+ border-collapse: collapse; 
+ margin-top: 15px; 
+ } 
+ th, td { 
+ border: 1px solid #999; 
+ padding: 8px; 
+ text-align: center; 
+ } 
+ th { 
+ background: #007bff;
+ color: white; 
+ } 
+ td { 
+ background: #f4f6f7; 
+ } 
+</style> 
+</head> 
+<body> 
+<div class="container"> 
+ <h2>String Functions in PHP</h2> 
+ <table> 
+ <tr> 
+ <th>Operation</th> 
+ <th>Result</th> 
+ </tr> 
+ <tr> 
+ <td>Original Text</td> 
+ <td><?php echo $text; ?></td> 
+ </tr> 
+ <tr> 
+ <td>Uppercase</td> 
+ <td><?php echo strtoupper($text); ?></td>  </tr> 
+ <tr> 
+ <td>Lowercase</td> 
+ <td><?php echo strtolower($text); ?></td>  </tr> 
+ <tr> 
+ <td>Length</td> 
+ <td><?php echo strlen($text); ?></td> 
+ </tr> 
+ <tr> 
+ <td>Reversed</td> 
+ <td><?php echo strrev($text); ?></td> 
+ </tr> 
+ <tr> 
+ <td>Replace 'World' with 'PHP'</td> 
+ <td><?php echo str_replace("World", "PHP", $text); ?></td>  </tr> 
+ <tr> 
+ <td>Substring (first 5 letters)</td>
+ <td><?php echo substr($text, 0, 5); ?></td> 
+ </tr> 
+ </table> 
+</div> 
+</body> 
+</html> 
+Output:
+
+ 5.Student grade calculation using Arrays and Functions in php 
+Program Code: 
+Array.php 
+<?php 
+// Function to calculate grade 
+function calculateGrade($marks) { 
+if ($marks >= 90) { 
+ return "A"; 
+} elseif ($marks >= 75) { 
+ return "B"; 
+} elseif ($marks >= 50) { 
+ return "C"; 
+} else { 
+ return "F"; 
+} 
+} 
+// Array of students with marks 
+$students = array( 
+"John" => 85, 
+"Mary" => 92, 
+"Peter" => 67, 
+"Anita" => 45 
+); 
+?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Student Grade Calculation</title> 
+<style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ background: #f8f9fa; 
+ } 
+ .container { 
+ width: 60%; 
+ margin: 40px auto; 
+ background: #fff; 
+ padding: 20px; 
+ border-radius: 10px;
+ border: 1px solid #ddd; 
+ box-shadow: 0px 3px 8px rgba(0,0,0,0.1);  } 
+ h2 { 
+ text-align: center; 
+ color: #007bff; 
+ } 
+ table { 
+ width: 100%; 
+ border-collapse: collapse; 
+ margin-top: 15px; 
+ } 
+ th, td { 
+ border: 1px solid #999; 
+ padding: 10px; 
+ text-align: center; 
+ } 
+ th { 
+ background: #007bff; 
+ color: white; 
+ } 
+ td { 
+ background: #f4f6f7; 
+ } 
+ .gradeA { color: green; font-weight: bold; }  .gradeB { color: blue; font-weight: bold; }  .gradeC { color: orange; font-weight: bold; }  .gradeF { color: red; font-weight: bold; } </style> 
+</head> 
+<body> 
+<div class="container"> 
+ <h2>Student Grades</h2> 
+ <table> 
+ <tr> 
+ <th>Student</th> 
+ <th>Marks</th> 
+ <th>Grade</th> 
+ </tr> 
+ <?php 
+ foreach ($students as $name => $marks) {
+ $grade = calculateGrade($marks); 
+ $class = "grade" . $grade; 
+ ?> 
+ <tr> 
+ <td><?php echo $name; ?></td> 
+ <td><?php echo $marks; ?></td> 
+ <td class="<?php echo $class; ?>"><?php echo $grade; ?></td>  </tr> 
+ <?php } ?> 
+ </table> 
+</div> 
+</body> 
+</html> 
+Output:
+
+ 6.Online registration Form Handling using php 
+Program Code: 
+Registration.php 
+<?php 
+if ($_SERVER["REQUEST_METHOD"] == "POST") { // Collect form data 
+$name = $_POST['name']; 
+$email = $_POST['email']; 
+$password = $_POST['password']; 
+?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Registration Result</title> 
+<style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ background: #f8f9fa; 
+ } 
+ .container { 
+ width: 40%; 
+ margin: 50px auto; 
+ background: #fff; 
+ padding: 20px; 
+ border-radius: 10px; 
+ border: 1px solid #ccc; 
+ box-shadow: 0px 3px 8px rgba(0,0,0,0.1); 
+ text-align: center; 
+ } 
+ h2 { color: green; } 
+ p { font-size: 16px; } 
+</style> 
+</head> 
+<body> 
+<div class="container"> 
+ <h2>Registration Successful!</h2> 
+ <p><b>Name:</b> <?php echo $name; ?></p>  <p><b>Email:</b> <?php echo $email; ?></p>  <p><b>Password:</b> <?php echo $password; ?> </p>
+ <!-- In real projects, never display password --> </div> 
+</body> 
+</html> 
+<?php 
+} else { 
+?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Online Registration Form</title> 
+<style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ background: #eef2f3; 
+ } 
+ .form-box { 
+ width: 40%; 
+ margin: 50px auto; 
+ background: #fff; 
+ padding: 20px; 
+ border-radius: 10px; 
+ border: 1px solid #ccc; 
+ box-shadow: 0px 3px 8px rgba(0,0,0,0.1); 
+ } 
+ h2 { 
+ text-align: center; 
+ color: #007bff; 
+ } 
+ label { 
+ display: block; 
+ margin: 10px 0 5px; 
+ font-weight: bold; 
+ } 
+ input[type=text], input[type=email], input[type=password] {  width: 95%; 
+ padding: 8px; 
+ margin-bottom: 15px; 
+ border: 1px solid #ccc; 
+ border-radius: 5px; 
+ }
+ input[type=submit] { 
+ width: 100%; 
+ padding: 10px; 
+ background: #007bff; 
+ color: white; 
+ font-size: 16px; 
+ border: none; 
+ border-radius: 5px; 
+ cursor: pointer; 
+ } 
+ input[type=submit]:hover { 
+ background: #0056b3; 
+ } 
+</style> 
+</head> 
+<body> 
+<div class="form-box"> 
+ <h2>Online Registration Form</h2> 
+ <form method="post" action=""> 
+ <label>Name:</label> 
+ <input type="text" name="name" required> 
+ <label>Email:</label> 
+ <input type="email" name="email" required> 
+ <label>Password:</label> 
+ <input type="password" name="password" required> 
+ <input type="submit" value="Register">  </form> 
+</div> 
+</body> 
+</html> 
+<?php 
+} 
+?>
+
+Output: 
+ 
+
+7. Employee Salary Details using Advanced Arrays in php 
+Program Code: 
+Empluyeesalary.php 
+<?php 
+// Multidimensional associative array (Employee details) 
+$employees = array( 
+array("id" => 101, "name" => "John", "basic" => 20000, "bonus" => 5000), array("id" => 102, "name" => "Mary", "basic" => 25000, "bonus" => 7000), array("id" => 103, "name" => "Peter", "basic" => 18000, "bonus" => 4000), array("id" => 104, "name" => "Anita", "basic" => 22000, "bonus" => 6000) ); 
+?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Employee Salary Details</title> 
+<style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ background: #f8f9fa;} 
+ .container { 
+ width: 70%; 
+ margin: 40px auto; 
+ background: #fff; 
+ padding: 20px; 
+ border-radius: 10px; 
+ border: 1px solid #ddd; 
+ box-shadow: 0px 3px 8px rgba(0,0,0,0.1); 
+ } 
+ h2 { 
+ text-align: center; 
+ color: #007bff; 
+ } 
+ table { 
+ width: 100%; 
+ border-collapse: collapse; 
+ margin-top: 15px; 
+ } 
+ th, td {
+ border: 1px solid #999; 
+ padding: 10px; 
+ text-align: center; 
+ } 
+ th { 
+ background: #007bff; 
+ color: white; 
+ } 
+ td { 
+ background: #f4f6f7; 
+ } 
+ .highlight { 
+ font-weight: bold; 
+ color: green; 
+ } 
+</style> 
+</head> 
+<body> 
+<div class="container"> 
+ <h2>Employee Salary Details</h2> 
+ <table> 
+ <tr> 
+ <th>ID</th> 
+ <th>Name</th> 
+ <th>Basic Salary</th> 
+ <th>Bonus</th> 
+ <th>Total Salary</th> 
+ </tr> 
+ <?php foreach ($employees as $emp) { 
+ $totalSalary = $emp["basic"] + $emp["bonus"];  ?> 
+ <tr> 
+ <td><?php echo $emp["id"]; ?></td> 
+ <td><?php echo $emp["name"]; ?></td>  <td><?php echo $emp["basic"]; ?></td>  <td><?php echo $emp["bonus"]; ?></td> 
+ <td class="highlight"><?php echo $totalSalary; ?></td>  </tr> 
+ <?php } ?> 
+ </table> </div> 
+</body> </html>
+Output:
+
+ 8.Bank Transaction Handling using Exception Handling in php 
+Program Code: 
+ExceptionHandling.php 
+<?php 
+// Function to withdraw money 
+function withdraw($balance, $amount) { 
+if ($amount > $balance) { 
+ // Throw exception if insufficient balance 
+ throw new Exception("Error: Insufficient Balance! Cannot withdraw $amount."); } elseif ($amount <= 0) { 
+ throw new Exception("Error: Invalid withdrawal amount!"); 
+} else { 
+ $balance -= $amount; 
+ echo "<p class='success'>Withdrawal Successful! Amount: <b>$amount</b></p>";  echo "<p class='info'>Remaining Balance: <b>$balance</b></p>"; } 
+return $balance; 
+} 
+// Main code 
+try { 
+$balance = 5000; // Initial balance 
+$output = "<h2>Bank Transaction</h2>"; 
+$output .= "<p class='info'>Initial Balance: <b>$balance</b></p><br>"; 
+// Perform transactions 
+$balance = withdraw($balance, 2000); // valid withdrawal 
+$balance = withdraw($balance, 4000); // this will throw exception 
+} catch (Exception $e) { 
+// Catch and display exception 
+echo "<p class='error'><b>Transaction Failed:</b> " . $e->getMessage() . "</p>"; } 
+?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Bank Transaction Handling</title> 
+<style> 
+ body {
+ font-family: Arial, sans-serif; 
+ background: #f8f9fa; 
+ } 
+ .container { 
+ width: 50%; 
+ margin: 40px auto; 
+ background: #fff; 
+ padding: 20px; 
+ border-radius: 10px; 
+ border: 1px solid #ddd; 
+ box-shadow: 0px 3px 8px rgba(0,0,0,0.1);  } 
+ h2 { 
+ text-align: center; 
+ color: #007bff; 
+ } 
+ .info { 
+ color: #333; 
+ font-size: 16px; 
+ } 
+ .success { 
+ color: green; 
+ font-weight: bold; 
+ } 
+ .error { 
+ color: red; 
+ font-weight: bold; 
+ background: #ffe6e6; 
+ padding: 10px; 
+ border: 1px solid red; 
+ border-radius: 5px; 
+ } 
+</style> 
+</head> 
+<body> 
+<div class="container"> 
+ <?php echo $output ?? ""; ?> 
+</div> 
+</body> 
+</html>
+Output
+
+9.Server-Side Validation and Page Redirection for Login Form in PHP Program Code: 
+database Table 
+CREATE TABLE users ( 
+ id INT AUTO_INCREMENT PRIMARY KEY, 
+ username VARCHAR(50) NOT NULL UNIQUE, 
+ gamer_tag VARCHAR(40) NOT NULL UNIQUE, 
+ email VARCHAR(120) NOT NULL UNIQUE, 
+ password VARCHAR(255) NOT NULL, 
+ avatar_url VARCHAR(255) DEFAULT NULL, 
+ created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
+); 
+config.php 
+<?php 
+$servername = "127.0.0.1"; 
+$username = "root"; 
+$password = ""; 
+$dbname = "hub"; // Use your database name here 
+$port = 3306; // Default MySQL port in XAMPP 
+$conn = new mysqli($servername, $username, $password, $dbname, $port); if ($conn->connect_error) { 
+ die("Connection failed: " . $conn->connect_error); 
+} 
+?> 
+register.php 
+<?php 
+include('config.php'); 
+session_start(); 
+if(isset($_POST['register'])) { 
+ $username = trim($_POST['username']); 
+ $gamer_tag = trim($_POST['gamer_tag']); 
+ $email = trim($_POST['email']); 
+ $password = $_POST['password']; 
+ $confirm = $_POST['confirm_password']; 
+ $avatar_url = trim($_POST['avatar_url']);
+  
+ if ($password !== $confirm) { 
+ echo "<script>alert('Passwords do not match!');</script>"; 
+ } elseif (strlen($password) < 6) { 
+ echo "<script>alert('Password must be at least 6 characters.');</script>";  } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) { 
+ echo "<script>alert('Invalid email format');</script>"; 
+ } else { 
+ $passwordHash = password_hash($password, PASSWORD_BCRYPT);  $sql = "INSERT INTO users (username, gamer_tag, email, password, avatar_url) VALUES (?, ?, ?, ?, ?)"; 
+ $stmt = $conn->prepare($sql); 
+ if ($stmt === false) { 
+ die("Prepare failed: " . $conn->error); 
+ } 
+ $stmt->bind_param("sssss", $username, $gamer_tag, $email, $passwordHash, $avatar_url);  if ($stmt->execute()) { 
+ header("Location: login.php?registered=1"); 
+ exit(); 
+ } else { 
+ echo "<script>alert('Registration failed: Username, gamer tag, or email may already exist.');</script>"; 
+ } 
+ $stmt->close(); 
+ } 
+} 
+?> 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8" /> 
+<title>Game Portal Registration</title> 
+<link rel="stylesheet" href="style.css" /> 
+</head> 
+<body> 
+<div class="container"> 
+ <h2>Register for Game Portal</h2> 
+ <form action="" method="post" onsubmit="return validateRegisterForm();">  <input type="text" name="username" placeholder="Login Username" required autocomplete="username" />
+ <input type="text" name="gamer_tag" placeholder="Gamer Tag" required autocomplete="nickname" /> 
+ <input type="email" name="email" placeholder="Email" required autocomplete="email" />  <input type="password" name="password" placeholder="Password" required autocomplete="new-password" /> 
+ <input type="password" name="confirm_password" placeholder="Retype Password" required autocomplete="new-password" /> 
+ <input type="text" name="avatar_url" placeholder="Avatar URL (optional)">  <button type="submit" name="register">Register</button> 
+ <p>Already have an account? <a href="login.php">Login now</a></p>  </form> 
+</div> 
+<script> 
+function validateRegisterForm() { 
+ var pw = document.forms[0]["password"].value; 
+ var cpw = document.forms[0]["confirm_password"].value; 
+ if (pw !== cpw) { 
+ alert("Passwords do not match!"); 
+ return false; 
+ } 
+ if (pw.length < 6) { 
+ alert("Password must be at least 6 characters."); 
+ return false; 
+ } 
+ return true; 
+} 
+</script> 
+</body> 
+</html> 
+login.php 
+<?php 
+include('config.php'); 
+session_start(); 
+if(isset($_POST['login'])) { 
+ $login_input = trim($_POST['login_input']); 
+ $password = $_POST['password']; 
+ if(empty($login_input) || empty($password)) { 
+ echo "<script>alert('Please enter both username/gamer tag and password.');</script>";  } else { 
+ $stmt = $conn->prepare("SELECT id, username, gamer_tag, password FROM users WHERE username = ? OR gamer_tag = ?");
+ if ($stmt === false) { 
+ die("Prepare failed: " . $conn->error); 
+ } 
+ $stmt->bind_param("ss", $login_input, $login_input); 
+ $stmt->execute(); 
+ $stmt->store_result(); 
+ if($stmt->num_rows > 0) { 
+ $stmt->bind_result($id, $username, $gamer_tag, $hashedPassword);  $stmt->fetch(); 
+ if(password_verify($password, $hashedPassword)) { 
+ $_SESSION['username'] = $username; 
+ $_SESSION['gamer_tag'] = $gamer_tag; 
+ $_SESSION['user_id'] = $id; 
+ header('Location: home.php'); 
+ exit(); 
+ } else { 
+ echo "<script>alert('Incorrect password.');</script>"; 
+ } 
+ } else { 
+ echo "<script>alert('User not found with that username or gamer tag.');</script>";  } 
+ $stmt->close(); 
+ } 
+} 
+?> 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8" /> 
+<title>Game Portal Login</title> 
+<link rel="stylesheet" href="style.css" /> 
+</head> 
+<body> 
+<div class="container"> 
+ <h2>Login to Game Portal</h2> 
+ <form action="" method="post"> 
+ <input type="text" name="login_input" placeholder="Username or Gamer Tag" required autocomplete="username" /> 
+ <input type="password" name="password" placeholder="Password" required autocomplete="current-password" /> 
+ <button type="submit" name="login">Login</button>
+ <p>New user? <a href="register.php">Register now</a></p>  </form> 
+</div> 
+</body> 
+</html> 
+home.php 
+<?php 
+session_start(); 
+if(!isset($_SESSION['username'])) { 
+ header('Location: login.php'); 
+ exit(); 
+} 
+?> 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8" /> 
+<title>Game Portal Home</title> 
+<link rel="stylesheet" href="style.css" /> 
+</head> 
+<body> 
+<div class="container"> 
+ <h2>Welcome, <?php echo htmlspecialchars($_SESSION['gamer_tag']); ?>!</h2>  <p>You have successfully logged in to the Game Portal.</p> 
+ <a href="logout.php">Logout</a> 
+</div> 
+</body> 
+</html> 
+styles.css 
+body { 
+ background: #fff; /* Set the page background to white */ 
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  margin: 0; 
+ padding: 0; 
+ display: flex; 
+ justify-content: center; 
+ align-items: flex-start; 
+ min-height: 100vh; 
+ color: #222; /* Dark text for good contrast */ 
+}
+.container { 
+ background: #fff; /* Form background white */  border: 3px solid #e10600; /* Red border for gaming accent */  max-width: 420px; 
+ padding: 2.2em; 
+ margin: 3em 0; 
+ border-radius: 14px; 
+ box-shadow: 0 0 26px #e1060012; 
+ text-align: center; 
+} 
+h2 { 
+ font-weight: 700; 
+ color: #e10600; /* Gaming accent */ 
+ margin-bottom: 1.3em; 
+ font-family: 'Segoe UI', sans-serif; 
+ letter-spacing: 1.5px; 
+} 
+input[type="text"], 
+input[type="password"], 
+input[type="email"] { 
+ width: 100%; 
+ padding: 1em; 
+ margin: 0.85em 0; 
+ border: 2px solid #e10600; 
+ background: #f7f7f7; /* Pale gray for input fields */  color: #222; 
+ border-radius: 8px; 
+ font-size: 1.05em; 
+} 
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="email"]:focus { 
+ border-color: #ff2a2a; 
+ background: #fff; 
+ outline: none; 
+} 
+button { 
+ width: 100%; 
+ background: linear-gradient(90deg, #e10600, #ff5353);  color: white; 
+ padding: 1.15em;
+ border: none; 
+ border-radius: 10px; 
+ font-weight: 900; 
+ letter-spacing: 1.2px; 
+ font-size: 1.15em; 
+ margin-top: 1.4em; 
+ cursor: pointer; 
+ box-shadow: 0 0 18px #ff3a3a22; 
+ transition: background 0.25s, transform 0.18s; } 
+button:hover { 
+ background: linear-gradient(90deg, #ff3a3a, #ff1212);  transform: scale(1.08); 
+ box-shadow: 0 0 30px #ff383822; 
+} 
+a { 
+ color: #e10600; 
+ font-weight: bold; 
+ text-decoration: underline wavy #ff5353;  transition: color 0.3s; 
+} 
+a:hover { 
+ color: #ff2a2a; 
+} 
+@media screen and (max-width: 600px) { 
+ .container { 
+ max-width: 94%; 
+ padding: 1.7em; 
+ margin: 2em auto; 
+ } 
+} 
+logout.php 
+<?php 
+session_start(); 
+session_unset(); 
+session_destroy(); 
+header('Location: login.php'); 
+exit(); 
+?>
+Output:
+
+
+
+
+
+10.Shopping Cart Management using Cookies and Sessions in PHP Program Code: 
+gadgets.php: 
+<?php 
+session_start(); 
+if (isset($_GET['add'])) { 
+$id = $_GET['add']; 
+if (!isset($_SESSION['cart'][$id])) { 
+ $_SESSION['cart'][$id] = 1; 
+} else { 
+ $_SESSION['cart'][$id]++; 
+} 
+header("Location: gadgets.php"); 
+exit; 
+} 
+?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Gadgets Store</title> 
+<style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ margin:0; 
+ padding:0; 
+ background:#f5f6fa; 
+ } 
+ .header { 
+ width: 100%; 
+ text-align: center; 
+ } 
+ .header img { 
+width: 100%; 
+max-height: 250px;  
+object-fit: cover;  
+display: block; 
+} 
+ .container { 
+ width: 90%;
+ margin: 20px auto; 
+ } 
+ h2 { 
+ text-align: center; 
+ margin-bottom: 30px; 
+ color:#2d3436; 
+ } 
+ .products { 
+ display: grid; 
+ grid-template-columns: repeat(3, 1fr);  gap: 20px; 
+ } 
+ .product { 
+ border: 2px solid #74b9ff; 
+ border-radius: 10px; 
+ padding: 15px; 
+ text-align: center; 
+ background: #dfe6e9; 
+ } 
+ .product img { 
+ width: 100%; 
+ height: 200px; 
+ object-fit: contain; 
+ border-radius: 10px; 
+ margin-bottom: 10px; 
+ } 
+ .product h3 { color:#0984e3; } 
+ .product p { font-size: 16px; font-weight: bold; }  .product a { 
+ display:inline-block; 
+ padding:8px 12px; 
+ margin-top:10px; 
+ background:#00b894; 
+ color:#fff; 
+ text-decoration:none; 
+ border-radius:5px; 
+ } 
+ .product a:hover { background:#019874; } </style> 
+</head> 
+<body>
+<div class="header"> 
+ <img 
+src="https://img.freepik.com/free-vector/electronics-store-template-design_23-2151143831.jpg?s emt=ais_hybrid&w=740&q=80" alt="Banner"> 
+</div> 
+<div class="container"> 
+ <h2>Available Gadgets</h2> 
+ <div class="products"> 
+ <div class="product"> 
+ <img 
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDwOC6_XLG0gr4PCKqb1CzY d1SzD6yb39CkA&s" alt="Laptop"> 
+ <h3>Laptop</h3> 
+ <p>$10000</p> 
+ <a href="gadgets.php?add=1">Add to Cart</a> 
+ </div> 
+ <div class="product"> 
+ <img 
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP4RrV0zPpeBrM5MbO8jkoLrh EgoOqZ5ORMA&s" alt="Smartphone"> 
+ <h3>Smartphone</h3> 
+ <p>$8000</p> 
+ <a href="gadgets.php?add=2">Add to Cart</a> 
+ </div> 
+ <div class="product"> 
+ <img 
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAafs8don6F6xXoUUu-DK0h UkDuIKHjTepw&s" alt="Headphones"> 
+ <h3>Headphones</h3> 
+ <p>$2000</p> 
+ <a href="gadgets.php?add=3">Add to Cart</a> 
+ </div> 
+ </div> 
+</div> 
+<div style="text-align:center; margin:20px;"> 
+ <a href="checkout.php" style="background:#6c5ce7;color:#fff;padding:10px 20px;border-radius:5px;text-decoration:none;">Go to Checkout</a> 
+</div> 
+</body> 
+</html>
+checkout.php: 
+<?php 
+session_start(); 
+$products = [ 
+ 1 => ["name" => "Laptop", "price" => 10000],  2 => ["name" => "Smartphone", "price" => 8000],  3 => ["name" => "Headphones", "price" => 2000], ]; 
+if (isset($_GET['remove'])) { 
+ $id = $_GET['remove']; 
+ unset($_SESSION['cart'][$id]); 
+ header("Location: checkout.php"); 
+ exit; 
+} 
+if (isset($_GET['clear'])) { 
+ unset($_SESSION['cart']); 
+ header("Location: checkout.php"); 
+ exit; 
+} 
+?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>Checkout - Gadgets Store</title>  <style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ margin:0; 
+ padding:0; 
+ background:#f5f6fa; 
+ } 
+ .header { 
+ width: 100%; 
+ text-align: center; 
+ } 
+ .header img { 
+ width: 100%; 
+ max-height: 250px;  
+ object-fit: cover;  
+ display: block;
+} 
+ .container { 
+ width: 90%; 
+ margin: 20px auto; 
+ background:#fff; 
+ padding:20px; 
+ border-radius:10px; 
+ box-shadow:0px 2px 8px rgba(0,0,0,0.1); 
+ } 
+ h2 { text-align: center; color:#2d3436; margin-bottom:20px; }  table { 
+ width:100%; 
+ border-collapse:collapse; 
+ margin-bottom:20px; 
+ } 
+ th, td { 
+ border:1px solid #b2bec3; 
+ padding:10px; 
+ text-align:center; 
+ } 
+ th { 
+ background:#74b9ff; 
+ color:#fff; 
+ } 
+ td a { 
+ background:#d63031; 
+ color:#fff; 
+ padding:6px 12px; 
+ border-radius:5px; 
+ text-decoration:none; 
+ } 
+ td a:hover { background:#b71c1c; } 
+ .actions { 
+ text-align:center; 
+ margin-top:20px; 
+ } 
+ .btn { 
+ padding:10px 15px; 
+ border:none; 
+ border-radius:5px; 
+ text-decoration:none;
+ margin:5px; 
+ color:#fff; 
+ cursor:pointer; 
+ } 
+ .btn-clear { background:#636e72; } 
+ .btn-shop { background:#00b894; } 
+ </style> 
+</head> 
+<body> 
+ <div class="header"> 
+ <img 
+src="https://img.freepik.com/free-vector/electronics-store-template-design_23-2151143831.jpg?s emt=ais_hybrid&w=740&q=80" alt="Banner"> 
+ </div> 
+ <div class="container"> 
+ <h2>Your Cart</h2> 
+ <?php if (!empty($_SESSION['cart'])): ?> 
+ <table> 
+ <tr> 
+ <th>Item</th> 
+ <th>Price ($)</th> 
+ <th>Quantity</th> 
+ <th>Total ($)</th> 
+ <th>Action</th> 
+ </tr> 
+ <?php 
+ $grandTotal = 0; 
+ foreach ($_SESSION['cart'] as $id => $qty): 
+ $item = $products[$id]; 
+ $total = $item['price'] * $qty; 
+ $grandTotal += $total; 
+ ?> 
+ <tr> 
+ <td><?= $item['name'] ?></td> 
+ <td><?= $item['price'] ?></td> 
+ <td><?= $qty ?></td> 
+ <td><?= $total ?></td> 
+ <td><a href="checkout.php?remove=<?= $id ?>">Remove</a></td>  </tr> 
+ <?php endforeach; ?> 
+ <tr>
+ <td colspan="3"><strong>Grand Total</strong></td>  <td colspan="2"><strong>$<?= $grandTotal ?></strong></td>  </tr> 
+ </table> 
+ <?php else: ?> 
+ <p style="text-align:center;color:#636e72;">Your cart is empty.</p>  <?php endif; ?> 
+ <div class="actions"> 
+ <a href="checkout.php?clear=1" class="btn btn-clear">Clear Cart</a>  <a href="gadgets.php" class="btn btn-shop">Continue Shopping</a>  </div> 
+ </div> 
+</body> 
+</html>
+Output:
+
+11.Image Uploading Application using PHP 
+Program Code: 
+index.php 
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>Upload Image</title> 
+ <style> 
+ body { 
+ font-family: 'Segoe UI', sans-serif; 
+ background: url('background.jpg') no-repeat center center fixed;  background-size: cover; 
+ text-align: center; 
+ margin: 0; 
+ padding: 0; 
+ } 
+ header { 
+ background: rgba(0, 0, 0, 0.6); 
+ color: white; 
+ padding: 20px; 
+ display: flex; 
+ justify-content: center; 
+ align-items: center; 
+ gap: 15px; 
+ } 
+ header img { 
+ height: 50px; 
+ width: 50px; 
+ border-radius: 50%; 
+ } 
+ h2, h3 { 
+ margin: 10px; 
+ } 
+ form { 
+ background: rgba(255, 255, 255, 0.85); 
+ padding: 30px; 
+ margin: 60px auto; 
+ width: 400px; 
+ border-radius: 20px; 
+ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+ transition: transform 0.3s ease, box-shadow 0.3s ease;  } 
+ form:hover { 
+ transform: scale(1.05); 
+ box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);  } 
+ input[type="file"] { 
+ margin: 15px 0; 
+ padding: 10px; 
+ width: 90%; 
+ border: 1px solid #ccc; 
+ border-radius: 8px; 
+ } 
+ button, a { 
+ background: #4CAF50; 
+ color: #fff; 
+ padding: 12px 20px; 
+ text-decoration: none; 
+ border-radius: 10px; 
+ display: inline-block; 
+ margin-top: 15px; 
+ border: none; 
+ font-size: 16px; 
+ cursor: pointer; 
+ transition: background 0.3s ease; 
+ } 
+ button:hover, a:hover { 
+ background: #388E3C; 
+ } 
+ a { 
+ display: block; 
+ margin-top: 20px; 
+ } 
+ footer { 
+ background: rgba(0, 0, 0, 0.6); 
+ color: white; 
+ padding: 15px; 
+ position: fixed; 
+ bottom: 0; 
+ width: 100%; 
+ display: flex;
+ justify-content: center; 
+ align-items: center; 
+ gap: 10px; 
+ } 
+ footer img { 
+ height: 30px; 
+ width: 30px; 
+ border-radius: 50%; 
+ } 
+ </style> 
+</head> 
+<body> 
+ <header> 
+ <h2>PSGR KRISHNAMMAL COLLEGE FOR WOMEN</h2>  </header> 
+ <h3>OUR MEMORIES</h3> 
+ <form action="upload.php" method="post" enctype="multipart/form-data">  <input type="file" name="image" required><br> 
+ <button type="submit">Upload</button> 
+ </form> 
+ <a href="gallery.php">View Gallery</a> 
+ <footer> 
+ <p>&copy; 2025 PSGR Krishnammal College for Women. All rights reserved.</p>  </footer> 
+</body> 
+</html> 
+gallery.php 
+<?php 
+$host = "localhost"; 
+$user = "root"; 
+$pass = ""; 
+$db = "gallerydb"; 
+$conn = new mysqli($host, $user, $pass, $db); 
+$result = $conn->query("SELECT * FROM images ORDER BY uploaded_at DESC"); ?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>Image Gallery</title> 
+ <style> 
+ body {
+ font-family: 'Segoe UI', sans-serif;  background: #f4f6f9; 
+ margin: 0; 
+ padding: 0; 
+ } 
+ /* Header styling */ 
+ header { 
+ background: #444; 
+ color: white; 
+ padding: 15px 30px; 
+ display: flex; 
+ justify-content: center; 
+ align-items: center; 
+ gap: 15px; 
+ } 
+ header img { 
+ height: 60px; 
+ width: 60px; 
+ border-radius: 50%; 
+ object-fit: cover; 
+ } 
+ header h2 { 
+ margin: 0; 
+ font-size: 24px; 
+ } 
+ h2.title { 
+ text-align: center; 
+ margin-top: 20px; 
+ font-size: 28px; 
+ color: #333; 
+ } 
+ /* Upload button */ 
+ .upload-btn { 
+ display: inline-block; 
+ margin: 20px auto; 
+ background: #4CAF50; 
+ color: white; 
+ padding: 12px 20px; 
+ text-decoration: none; 
+ font-size: 16px; 
+ border-radius: 8px;
+ transition: background 0.3s ease; 
+ } 
+ .upload-btn:hover { 
+ background: #388E3C; 
+ } 
+ /* Gallery container */ 
+ .gallery { 
+ display: flex; 
+ flex-wrap: wrap; 
+ justify-content: center; 
+ gap: 25px; 
+ margin: 30px; 
+ } 
+ /* Image card */ 
+ .img-box { 
+ background: #fff; 
+ padding: 15px; 
+ width: 250px; 
+ border-radius: 16px; 
+ box-shadow: 0 8px 16px rgba(0,0,0,0.1);  transition: transform 0.3s ease, box-shadow 0.3s ease;  display: flex; 
+ flex-direction: column; 
+ align-items: center; 
+ } 
+ .img-box:hover { 
+ transform: scale(1.05); 
+ box-shadow: 0 12px 24px rgba(0,0,0,0.2);  } 
+ .img-box img { 
+ width: 100%; 
+ height: 180px; 
+ border-radius: 12px; 
+ object-fit: cover; 
+ margin-bottom: 10px; 
+ } 
+ /* Text section under image */ 
+ .img-details { 
+ text-align: center; 
+ margin-bottom: 10px; 
+ }
+ .img-details p { 
+ margin: 3px 0; 
+ font-size: 14px; 
+ color: #555; 
+ } 
+ /* Delete button */ 
+ .delete-btn { 
+ background: #e53935; 
+ color: #fff; 
+ padding: 8px 14px; 
+ border-radius: 6px; 
+ text-decoration: none; 
+ font-size: 14px; 
+ transition: background 0.3s ease; 
+ } 
+ .delete-btn:hover { 
+ background: #b71c1c; 
+ } 
+ /* Footer styling */ 
+ footer { 
+ background: #444; 
+ color: white; 
+ padding: 15px; 
+ text-align: center; 
+ position: fixed; 
+ bottom: 0; 
+ width: 100%; 
+ } 
+ </style> 
+</head> 
+<body> 
+ <header> 
+ <h2>PSGR KRISHNAMMAL COLLEGE FOR WOMEN</h2>  </header> 
+ <h2 class="title">Uploaded memories..!!</h2> 
+ <div style="text-align:center;"> 
+ <a class="upload-btn" href="index.php">Upload More</a>  </div> 
+ <div class="gallery"> 
+ <?php while ($row = $result->fetch_assoc()) { ?>  <div class="img-box">
+ <img src="uploads/<?php echo $row['filename']; ?>"> 
+  
+ <!-- 4 lines of text --> 
+ <div class="img-details"> 
+ <p><strong>Title:</strong> <?php echo $row['title'] ?? 'Event'; ?></p>  <p><strong>Date:</strong> <?php echo date("d M Y", 
+strtotime($row['uploaded_at'])); ?></p> 
+ <p><strong>Uploaded By:</strong> <?php echo $row['uploaded_by'] ?? 'Krishnammal College'; ?></p> 
+ <p><strong>Description:</strong> <?php echo $row['description'] ?? 'Just our memories '; ?></p> 
+ </div> 
+ <a class="delete-btn" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a>  </div> 
+ <?php } ?> 
+ </div> 
+ <footer> 
+ &copy; 2025 PSGR Krishnammal College for Women. All rights reserved.  </footer> 
+</body> 
+</html> 
+upload.php 
+<?php 
+$host = "localhost"; 
+$user = "root"; 
+$pass = ""; 
+$db = "gallerydb"; 
+$conn = new mysqli($host, $user, $pass, $db); 
+// Check connection 
+if ($conn->connect_error) { 
+ die("Connection failed: " . $conn->connect_error); 
+} 
+?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>Uploading...</title> 
+ <style> 
+ body { 
+ font-family: 'Segoe UI', Arial, sans-serif;
+ background: linear-gradient(135deg, #e3f2fd, #bbdefb);  display: flex; 
+ justify-content: center; 
+ align-items: center; 
+ height: 100vh; 
+ margin: 0; 
+ } 
+ .container { 
+ background: #fff; 
+ padding: 40px; 
+ border-radius: 16px; 
+ box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);  text-align: center; 
+ max-width: 500px; 
+ animation: fadeIn 0.8s ease-in-out; 
+ } 
+ .success-icon { 
+ font-size: 60px; 
+ color: #4CAF50; 
+ margin-bottom: 20px; 
+ animation: bounce 1s ease infinite alternate;  } 
+ h2 { 
+ color: #333; 
+ margin-bottom: 20px; 
+ font-size: 28px; 
+ } 
+ .btn-container { 
+ display: flex; 
+ justify-content: center; 
+ gap: 20px; 
+ } 
+ a { 
+ padding: 14px 24px; 
+ background: #4CAF50; 
+ color: #fff; 
+ border-radius: 12px; 
+ text-decoration: none; 
+ font-size: 18px; 
+ font-weight: bold; 
+ transition: background 0.3s ease, transform 0.2s ease;
+ } 
+ a:hover { 
+ background: #388E3C; 
+ transform: scale(1.05); 
+ } 
+ .divider { 
+ display: flex; 
+ align-items: center; 
+ justify-content: center; 
+ margin: 10px 0; 
+ color: #888; 
+ } 
+ @keyframes fadeIn { 
+ from { opacity: 0; transform: translateY(-20px); } 
+ to { opacity: 1; transform: translateY(0); } 
+ } 
+ @keyframes bounce { 
+ from { transform: translateY(0); } 
+ to { transform: translateY(-8px); } 
+ } 
+ </style> 
+</head> 
+<body> 
+<div class="container"> 
+<?php 
+if (!empty($_FILES['image']['name'])) { 
+ $target_dir = __DIR__ . "/uploads/"; 
+ if (!is_dir($target_dir)) { 
+ mkdir($target_dir, 0777, true); 
+ } 
+ $file_name = basename($_FILES["image"]["name"]); 
+ $target_file = $target_dir . $file_name; 
+ $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));  $allowed_types = ["jpg", "jpeg", "png"]; 
+ if (in_array($imageFileType, $allowed_types)) { 
+ if (move_uploaded_file($_FILES["image"]["tmp_name"], $target_file)) {  $stmt = $conn->prepare("INSERT INTO images (filename) VALUES (?)");  $stmt->bind_param("s", $file_name); 
+ $stmt->execute(); 
+ $stmt->close(); 
+ echo "<div class='success-icon'>✅</div>";
+ echo "<h2>Image Uploaded Successfully!</h2>"; 
+ echo "<div class='btn-container'> 
+ <a href='gallery.php'>Go to Gallery</a> 
+ <a href='index.php'>Upload More</a> 
+ </div>"; 
+ } else { 
+ echo "<h2 style='color:red;'>❌ Error uploading file.</h2>";  } 
+ } else { 
+ echo "<h2 style='color:orange;'>⚠ Only JPG, JPEG & PNG allowed!</h2>";  } 
+} else { 
+ echo "<h2 style='color:orange;'>⚠ No file selected!</h2>"; } 
+$conn->close(); 
+?> 
+</div> 
+</body> 
+</html> 
+delete.php 
+<?php 
+$host = "localhost"; 
+$user = "root"; 
+$pass = ""; 
+$db = "gallerydb"; 
+$conn = new mysqli($host, $user, $pass, $db); 
+if (isset($_GET['id'])) { 
+ $id = $_GET['id']; 
+ $res = $conn->query("SELECT filename FROM images WHERE id=$id");  $row = $res->fetch_assoc(); 
+ $file = "uploads/" . $row['filename']; 
+ if (file_exists($file)) { unlink($file); } 
+ $conn->query("DELETE FROM images WHERE id=$id");  header("Location: gallery.php"); 
+} 
+?>
+Output:
+
+
+12.Student Database Connectivity using PHP and MySQL 
+Program Code: 
+config.php 
+<?php 
+$host = "localhost"; 
+$user = "root";  
+$pass = "";  
+$dbname = "myproject"; 
+$conn = new mysqli($host, $user, $pass, $dbname); 
+if ($conn->connect_error) { 
+ die("Connection failed: " . $conn->connect_error); 
+} 
+?> 
+index.php 
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>Welcome - PSGRKCW</title> 
+ <style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ text-align: center; 
+ margin: 0; 
+ padding: 0; 
+ background: linear-gradient(to bottom right, #f3e8ff, #e9d5ff);  } 
+ header { 
+ padding: 20px; 
+ background: none; 
+ } 
+ header img.logo { 
+ max-width: 800px;  
+ height: auto; 
+ display: block; 
+ margin: 0 auto;  
+ } 
+ .container { 
+ margin-top: 40px; 
+ display: flex;
+ justify-content: center; 
+ align-items: center; 
+ } 
+ .card { 
+ background: white; 
+ padding: 40px; 
+ border-radius: 15px; 
+ box-shadow: 0px 8px 20px rgba(0,0,0,0.2); 
+ max-width: 400px; 
+ width: 90%; 
+ } 
+ .card h2 { 
+ margin-bottom: 25px; 
+ font-size: 24px; 
+ color: #4a148c; 
+ } 
+ .button { 
+ display: inline-block; 
+ padding: 12px 25px; 
+ margin: 10px; 
+ font-size: 16px; 
+ background: #7b1fa2; 
+ color: #fff; 
+ text-decoration: none; 
+ border-radius: 8px; 
+ transition: 0.3s; 
+ } 
+ .button:hover { 
+ background: #4a148c; 
+ transform: scale(1.05); 
+ } 
+ </style> 
+</head> 
+<body> 
+ <header> 
+ <img 
+src="https://www.psgrkcw.ac.in/wp-content/themes/psgrkcw/assets/images/psgrkcw-new -logo.png" 
+ alt="PSGRKCW Logo" class="logo"> 
+ </header> 
+ <div class="container">
+ <div class="card"> 
+ <h2>Welcome to PSGRKCW Portal</h2> 
+ <a href="register.php" class="button">Register</a> 
+ <a href="login.php" class="button">Login</a> 
+ </div> 
+ </div> 
+</body> 
+</html> 
+register.php 
+<?php 
+$success_message = ""; 
+$error_message = ""; 
+if ($_SERVER["REQUEST_METHOD"] == "POST") { 
+ $conn = new mysqli("localhost", "root", "", "myproject"); 
+ if ($conn->connect_error) { 
+ die("Connection failed: " . $conn->connect_error); 
+ } 
+ $username = $_POST['username']; 
+ $email = $_POST['email']; 
+ $password = $_POST['password']; 
+ $repassword = $_POST['repassword']; 
+ $role = $_POST['role']; // student or teacher 
+ if ($password !== $repassword) { 
+ $error_message = "Passwords do not match!"; 
+ } elseif 
+(!preg_match("/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{ 8,}$/", $password)) { 
+ $error_message = "Password must be at least 8 characters long and include upper, lower, number, and special character."; 
+ } else {  
+ $sql = "INSERT INTO users (username, email, password, role) 
+ VALUES ('$username', '$email', '$password', '$role')"; 
+ if ($conn->query($sql) === TRUE) { 
+ $success_message = "Registration successful!"; 
+ } else { 
+ $error_message = "Error: " . $conn->error; 
+ } 
+ } 
+ $conn->close();}
+?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>Register - PSGRKCW</title> 
+ <style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ text-align: center; 
+ margin: 0; 
+ padding: 0; 
+ background: linear-gradient(to bottom right, #f3e8ff, #e9d5ff); 
+ } 
+ header { padding: 20px; text-align: center; } 
+ header img.logo { max-width: 500px; height: auto; display: block; margin: 0 auto; }  .container { margin-top: 30px; display: flex; justify-content: center; align-items: center; }  .card { 
+ background: white; padding: 40px; border-radius: 15px; 
+ box-shadow: 0px 8px 20px rgba(0,0,0,0.2); 
+ max-width: 400px; width: 90%; 
+ } 
+ .card h2 { margin-bottom: 20px; color: #4a148c; } 
+ input, select { 
+ width: 90%; padding: 10px; margin: 10px 0; 
+ border: 1px solid #aaa; border-radius: 8px; 
+ } 
+ .button { 
+ display: inline-block; padding: 12px 25px; margin: 10px; 
+ font-size: 16px; background: #7b1fa2; color: #fff; 
+ border: none; border-radius: 8px; cursor: pointer; 
+ transition: 0.3s; 
+ } 
+ .button:hover { background: #4a148c; transform: scale(1.05); } 
+ .message { margin-top: 15px; font-weight: bold; } 
+ .success { color: green; } 
+ .error { color: red; } 
+ </style> 
+</head> 
+<body> 
+<header>
+ <img 
+src="https://www.psgrkcw.ac.in/wp-content/themes/psgrkcw/assets/images/psgrkcw-new -logo.png" 
+ alt="PSGRKCW Logo" class="logo"> 
+</header> 
+<div class="container"> 
+ <div class="card"> 
+ <h2>Register</h2> 
+ <?php if ($success_message): ?> 
+ <p class="message success"><?php echo $success_message; ?></p>  <a href="index.php" class="button">Go to Home</a> 
+ <?php else: ?> 
+ <?php if ($error_message): ?> 
+ <p class="message error"><?php echo $error_message; ?></p> 
+ <?php endif; ?> 
+ <form method="POST"> 
+ <input type="text" name="username" placeholder="Enter Username" required><br>  <input type="email" name="email" placeholder="Enter Email" required><br>  <input type="password" name="password" placeholder="Enter Password" required><br> 
+ <input type="password" name="repassword" placeholder="Re-type Password" required><br> 
+ <select name="role" required> 
+ <option value="student">Student</option> 
+ <option value="teacher">Teacher</option> 
+ </select><br>  
+ <button type="submit" class="button">Register</button> 
+ </form> 
+ <?php endif; ?> 
+ </div> 
+</div> 
+</body> 
+</html> 
+login.php 
+<?php 
+session_start(); 
+$success_message = ""; 
+$error_message = ""; 
+if ($_SERVER["REQUEST_METHOD"] == "POST") { 
+ $conn = new mysqli("localhost", "root", "", "myproject");
+ if ($conn->connect_error) { 
+ die("Connection failed: " . $conn->connect_error); 
+ } 
+ $email = $_POST['email']; 
+ $password = $_POST['password']; 
+ $sql = "SELECT * FROM users WHERE email='$email' AND password='$password'";  $result = $conn->query($sql); 
+ if ($result->num_rows > 0) { 
+ $row = $result->fetch_assoc(); 
+ $_SESSION['user'] = $row['email']; 
+ $_SESSION['user_id'] = $row['id']; 
+ $_SESSION['role'] = $row['role']; 
+ if ($row['role'] === 'teacher') { 
+ header("Location: addmarks.php"); 
+ exit(); 
+ } elseif ($row['role'] === 'student') { 
+ header("Location: viewmarks.php"); 
+ exit(); 
+ } else { 
+ $error_message = "Unknown role. Please contact admin."; 
+ } 
+ } else { 
+ $error_message = "Invalid email or password!"; 
+ } 
+ $conn->close(); 
+} 
+?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>Login - PSGRKCW</title> 
+ <style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ text-align: center; 
+ margin: 0; 
+ padding: 0; 
+ background: linear-gradient(to bottom right, #f3e8ff, #e9d5ff);  } 
+ header { 
+ padding: 20px;
+ text-align: center; 
+ } 
+ header img.logo { 
+ max-width: 500px; 
+ height: auto; 
+ display: block; 
+ margin: 0 auto; 
+ } 
+ .container { 
+ margin-top: 30px; 
+ display: flex; 
+ justify-content: center; 
+ align-items: center; 
+ } 
+ .card { 
+ background: white; 
+ padding: 40px; 
+ border-radius: 15px; 
+ box-shadow: 0px 8px 20px rgba(0,0,0,0.2);  max-width: 400px; 
+ width: 90%; 
+ } 
+ .card h2 { 
+ margin-bottom: 20px; 
+ color: #4a148c; 
+ } 
+ input[type=email], input[type=password] {  width: 90%; 
+ padding: 10px; 
+ margin: 10px 0; 
+ border: 1px solid #aaa; 
+ border-radius: 8px; 
+ } 
+ .button { 
+ display: inline-block; 
+ padding: 12px 25px; 
+ margin: 10px; 
+ font-size: 16px; 
+ background: #7b1fa2; 
+ color: #fff; 
+ border: none;
+ border-radius: 8px; 
+ cursor: pointer; 
+ transition: 0.3s; 
+ } 
+ .button:hover { 
+ background: #4a148c; 
+ transform: scale(1.05); 
+ } 
+ .forgot-link { 
+ display: block; 
+ margin-top: 15px; 
+ color: #4a148c; 
+ text-decoration: none; 
+ font-size: 14px; 
+ } 
+ .forgot-link:hover { 
+ text-decoration: underline; 
+ } 
+ .message { 
+ margin-top: 15px; 
+ font-weight: bold; 
+ } 
+ .success { color: green; } 
+ .error { color: red; } 
+ </style> 
+</head> 
+<body> 
+ <header> 
+ <img 
+src="https://www.psgrkcw.ac.in/wp-content/themes/psgrkcw/assets/images/psgrkcw-new -logo.png" 
+ alt="PSGRKCW Logo" class="logo"> 
+ </header> 
+ <div class="container"> 
+ <div class="card"> 
+ <h2>Login</h2> 
+ <?php if ($error_message): ?> 
+ <p class="message error"><?php echo $error_message; ?></p> 
+ <?php endif; ?> 
+ <form method="POST"> 
+ <input type="email" name="email" placeholder="Enter Email" required><br>
+ <input type="password" name="password" placeholder="Enter Password" required><br> 
+ <button type="submit" class="button">Login</button> 
+ </form> 
+ <a href="forgot_password.php" class="forgot-link">Forgot Password?</a>  </div> 
+ </div> 
+</body> 
+</html> 
+logout.php 
+<?php 
+session_start(); 
+$_SESSION = array(); 
+session_destroy(); 
+header("Location: login.php"); 
+exit(); 
+?> 
+forgot_password.php 
+<?php 
+$success_message = ""; 
+$error_message = ""; 
+if ($_SERVER["REQUEST_METHOD"] == "POST") { 
+ $conn = new mysqli("localhost", "root", "", "myproject"); 
+ if ($conn->connect_error) { 
+ die("Connection failed: " . $conn->connect_error); 
+ } 
+ $email = $_POST['email']; 
+ $new_password = $_POST['new_password']; 
+ $re_password = $_POST['re_password']; 
+ if ($new_password !== $re_password) { 
+ $error_message = "Passwords do not match!"; 
+ } else { 
+ $sql = "UPDATE users SET password='$new_password' WHERE email='$email'";  if ($conn->query($sql) === TRUE) { 
+ if ($conn->affected_rows > 0) { 
+ $success_message = "Password updated successfully!"; 
+ } else { 
+ $error_message = "No account found with this email."; 
+ } 
+ } else {
+ $error_message = "Error: " . $conn->error; 
+ } 
+ } 
+ $conn->close(); 
+} 
+?> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>Forgot Password - PSGRKCW</title> 
+ <style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ text-align: center; 
+ background: linear-gradient(to bottom right, #f3e8ff, #e9d5ff);  } 
+ header { 
+ padding: 20px; 
+ } 
+ header img.logo { 
+ max-width: 500px; 
+ margin: 0 auto; 
+ display: block; 
+ } 
+ .container { 
+ display: flex; 
+ justify-content: center; 
+ margin-top: 40px; 
+ } 
+ .card { 
+ background: white; 
+ padding: 40px; 
+ border-radius: 15px; 
+ box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
+ max-width: 400px; 
+ width: 90%; 
+ } 
+ .card h2 { color: #4a148c; } 
+ input[type=email], input[type=password] { 
+ width: 90%; 
+ padding: 10px;
+ margin: 10px 0; 
+ border: 1px solid #aaa; 
+ border-radius: 8px; 
+ } 
+ .button { 
+ background: #7b1fa2; 
+ color: white; 
+ border: none; 
+ padding: 12px 25px; 
+ border-radius: 8px; 
+ cursor: pointer; 
+ transition: 0.3s; 
+ } 
+ .button:hover { 
+ background: #4a148c; 
+ } 
+ .message { font-weight: bold; margin-top: 15px; } 
+ .success { color: green; } 
+ .error { color: red; } 
+ </style> 
+</head> 
+<body> 
+ <header> 
+ <img 
+src="https://www.psgrkcw.ac.in/wp-content/themes/psgrkcw/assets/images/psgrkcw-new -logo.png" 
+ alt="PSGRKCW Logo" class="logo"> 
+ </header> 
+ <div class="container"> 
+ <div class="card"> 
+ <h2>Reset Password</h2> 
+ <?php if ($success_message): ?> 
+ <p class="message success"><?php echo $success_message; ?></p>  <a href="login.php" class="button">Back to Login</a> 
+ <?php else: ?> 
+ <?php if ($error_message): ?> 
+ <p class="message error"><?php echo $error_message; ?></p>  <?php endif; ?> 
+ <form method="POST"> 
+ <input type="email" name="email" placeholder="Enter Registered Email" required><br>
